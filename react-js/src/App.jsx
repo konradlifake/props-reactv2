@@ -6,27 +6,29 @@ function App() {
     return (
       <div>
         <Header 
-        title="Daily news"
-        nav1="Home"
-        nav2="Sports"
-        nav3="Technology"
+        title="Portfolio"
+        nav1="Skills"
+        nav2="About"
+        nav3="Projects"
         nav4="Contact"
         />
 
         <Hero
-        headline="Breaking news"
-        description="A new at technology is changing the future of educaation."
+        headline="About me"
+        description="I am a passionate web developer who enjoys creating modern, responsive and user-friendly websites using HTML and CSS
+
+I studied at Technikum im. Jana Zamoyskiego w Zwierzyńcu"
         />
 
         <Sidebar
-        title="Latest News"
-        item1="Football world Cup"
-        item2="Stock Market Update"
-        item3="Weather Forecast"
+        title="Skills"
+        item1="HTML"
+        item2="CSS"
+        item3="GIT"
         />
 
         <Footer
-        text="© 2026 Daily news. All Rights Reserved"
+        text="© 2026 Portfolio. All Rights Reserved"
         />
       </div>
     )

@@ -13,6 +13,7 @@ function Header(props) {
             <a href="#" style={{ marginRight:"15px"}}>{props.nav3}</a>
             <a href="#" style={{ marginRight:"15px"}}>{props.nav4}</a>
         </nav>
+        
         </div>
     );
 }

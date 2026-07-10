@@ -2,7 +2,7 @@ function Sidebar(props) {
     return(
         <aside style={{
             border:"2px white solid",
-            width:"250px",
+            width:"150px",
             marginTop:"20px",
             padding:"20px"
         }}>

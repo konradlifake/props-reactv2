@@ -8,7 +8,8 @@ function Hero(props) {
             
          }}>
             <h2>{props.headline}</h2>
-            <p>{props.description}</p>
+            <p>{props.description}</p> <br /> <br />
+            <img src="profilowe.png" alt="" width={"200px"} />
          </section>
     );
 }
