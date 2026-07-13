@@ -3,9 +3,9 @@ function App() {
 
   return (
     <div>
-      <h2>{students[0]}</h2>
-      <h2>{students[1]}</h2>
-      <h2>{students[2]}</h2>
+        {students.map((student) =>
+          <h2>{student}</h2>
+        )}
     </div>
   );
 }
