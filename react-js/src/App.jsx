@@ -2,6 +2,8 @@ import ProductList from "./Productlist";
 import Header2 from "./Header2";
 import Hero2 from "./Hero2";
 import Footer2 from "./Footer2";
+import Customer from "./Customer";
+
 
 function App() {
   const products = [
@@ -28,7 +30,9 @@ function App() {
     <Header2/>
     <Hero2/>
     <ProductList products={products}/>
+    <Customer></Customer>
     <Footer2></Footer2>
+
     </>
   );
 }
