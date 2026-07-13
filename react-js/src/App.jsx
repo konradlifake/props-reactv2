@@ -4,7 +4,7 @@ function App() {
   return (
     <div>
 
-        {students.map((student, index) =>
+        {students.slice(2,3).map((student, index) =>
           <h2 key={index}>{student}</h2>
         )}
     </div>
