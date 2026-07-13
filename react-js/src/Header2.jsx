@@ -4,10 +4,10 @@ function Header2() {
         <header style={{backgroundColor:"Dodgerblue", display:"flex", justifyContent:"space-between", padding:"10px"}}>
             <h2 >Myapp</h2>
             <nav>
-                <a href="a" style={{textDecoration:"none"}}>Home </a>
-                <a href="a" style={{textDecoration:"none"}}>Products </a>
-                <a href="a" style={{textDecoration:"none"}}>About </a>
-                <a href="a" style={{textDecoration:"none"}}>Contact</a>
+                <a href="a" style={{textDecoration:"none", color:"white", margin:"5px"}}>Home </a>
+                <a href="a" style={{textDecoration:"none", color:"white", margin:"5px"}}>Products </a>
+                <a href="a" style={{textDecoration:"none", color:"white", margin:"5px"}}>About </a>
+                <a href="a" style={{textDecoration:"none", color:"white", margin:"5px"}}>Contact</a>
             </nav>
         </header>
     );
