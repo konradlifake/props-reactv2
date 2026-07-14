@@ -1,39 +1,16 @@
-import ProductList from "./Productlist";
-import Header2 from "./Header2";
-import Hero2 from "./Hero2";
-import Footer2 from "./Footer2";
-import Customer from "./Customer";
-
+import { useState } from "react";
 
 function App() {
-  const products = [
-    {
-      name: "Laptop",
-      price: 700,
-      obraz: "laptop.png"
-    },
-    {
-      name: "Phone",
-      price: 500,
-      obraz: "telefon.png"
-    },
-    {
-      name: "Headphone",
-      price:  300,
-      obraz: "sluchawki.png"
+    const [count,setCount] = useState(0);
+  return (
+    <div> 
+      <h1>{count}</h1>
 
-    }
-  ];
-
-  return(
-    <>
-    <Header2/>
-    <Hero2/>
-    <ProductList products={products}/>
-    <Customer></Customer>
-    <Footer2></Footer2>
-
-    </>
+      <button onClick={() => setCount (count+1)}
+      >Increase</button> 
+      <button onClick={() => setCount (count-1)}>Decrease</button> 
+      <button onClick={() => setCount (0)}>Reset</button>
+    </div>
   );
 }
 export default App;
