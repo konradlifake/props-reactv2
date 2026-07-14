@@ -1,20 +1,12 @@
-
-
-
-
 function App() {
-  function handleSubmit(event) {
-    event.preventDefault();
-    alert("Form Submitted!");
-  }
+  const isLogin = false;
   return (
-    <form onSubmit={handleSubmit}>
-      <input type="text" placeholder="Name"/>
-    
-      <button type="submit">Submit</button>  
-    </form>
- 
-   
+    <div>
+      {isLogin
+      ? <h1>Welcome back</h1>
+      : <h1>Please Login</h1>
+      }
+    </div>
   );
 }
 export default App;
